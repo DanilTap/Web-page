@@ -1,0 +1,43 @@
+body{
+	margin: 0;
+	background-image: url("https://www.coderspassion.com/wp-content/uploads/2019/08/10-best-tips-to-become-successful-web-designer.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: scroll;
+}
+
+/* Title  */
+header{
+	height: 40px;
+	width: 83%;
+	display: block;
+	font-family: 'Consolas';
+	padding-top: 18px;
+	padding-left: 220px;
+}
+
+header a{
+	text-decoration: none;
+	color: white;
+	font-size: 22px;
+	margin-left: 50px;
+	transition: 0.05s;
+	filter: blur(0.4px);
+}
+
+header a:hover{
+	border-bottom: 2.5px solid #55ad2b;
+	border-radius: 3px;
+	filter: blur(0px);
+}
+
+/* Content  */
+
+#title{
+	position: relative;
+	top: 200px;
+	color: white;
+	font-size: 30px;
+	font-family: 'Consolas';
+	border-radius: 5px;
+}
